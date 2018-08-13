@@ -54,6 +54,7 @@ module JavaBuildpack
       tags = tags.flatten.compact.sort
 
       @logger.debug { "Detection Tags: #{tags}" }
+      puts "tags........========#{tags}"
       tags
     end
 
